@@ -1,3 +1,5 @@
+import random
+
 class MoveTop:
     @staticmethod
     def move(obj):
@@ -31,9 +33,10 @@ class MoveBackward:
 class MoveW1:
     @staticmethod
     def move(obj):
-        obj.translate(0,0,0,obj.step)
+        obj.translate(0,0,0,-obj.step)
 
 class MoveW2:
     @staticmethod
     def move(obj):
-        obj.translate(0,0,0,-obj.step)
+        obj.translate(0,0,0,obj.step)
+
