@@ -15,7 +15,7 @@ class Window(Entity):
         self.start()
 
     def start(self):
-        Audio("./Packman/Sounds/futuristic-logo-3-versions-149429.mp3",loop=True).play()
+        Audio("./Packman/Sounds/Carefree(chosic.com).mp3",loop=True).play()
         Sky(color=Vec4(0,0,0.1,1))
 
         self.__gameController=GameController()
