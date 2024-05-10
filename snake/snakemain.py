@@ -39,7 +39,7 @@ class Apple:
 class SnakeGame:
     def __init__(self):
         pg.init()
-        self.WSIZE = (720, 480)
+        self.WSIZE = (720, 620)
         self.screen = pg.display.set_mode(self.WSIZE)
         self.TSIDE = 30
         self.MSIZE = self.WSIZE[0] // self.TSIDE, self.WSIZE[1] // self.TSIDE
