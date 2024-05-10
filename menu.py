@@ -25,9 +25,9 @@ def runTettris():
 
 def showMenu():
     pygame.init()
-    surface = pygame.display.set_mode((720, 480))
+    surface = pygame.display.set_mode((720, 620))
 
-    menu = pygame_menu.Menu('VRBProduction', 720, 480,
+    menu = pygame_menu.Menu('VRBProduction', 720, 620,
                             theme=pygame_menu.themes.THEME_SOLARIZED)
     menu.add.button("Snake", runSnake)
     menu.add.button("Tettris", runTettris)
